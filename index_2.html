@@ -1,0 +1,29 @@
+<html>
+
+<head>
+ <script>
+     var countDownTime = new Date("Oct 10, 2021 10:00").getTime()
+
+     var x = setInterval(function(){
+         var now = new Date().getTime()
+         var distance = countDownTime - now
+
+         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+         document.getElementById("time").innerHTML = days + " hari <br>" + hours + ": "+ minutes + ": " + seconds + " ";
+     })
+ </script>
+
+</head>
+
+<body>
+    <p style="text-align: center;">&nbsp;</p>
+    <h1 style="text-align: center;"><strong>Stay tune for <span style="color: #ff0000;">October, 10&nbsp;</span></strong></h1>
+    <p style="text-align: center;"><strong><span style="color: #000000;">Akmal & Maya</span></strong></p>
+
+    <h1 style="text-align: center; margin-top: 120px;" id="time"></h1>
+</body>
+</html>
