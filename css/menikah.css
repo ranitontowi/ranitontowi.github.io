@@ -38,7 +38,7 @@ html {
 
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.55)no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), rgba(255, 255, 255, 0.55)no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0px -600px;
@@ -60,12 +60,12 @@ html {
   transform: rotate(-2deg);
   font-size: 5rem;
   padding-bottom: 5px;
-  color: whitesmoke;
+  color:#585e81;
 }
 
 .hero .subtitle {
   padding: 35px;
-  color: whitesmoke;
+  color: #959dca;
   font-size: 1.3rem;
 }
 
@@ -87,7 +87,7 @@ html {
   }
 
   .hero{
-    background: linear-gradient(rgba(127, 148, 176, 0.65), rgba(82, 89, 112, 0.65)), rgba(143, 143, 143, 0.55) no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), rgba(255, 255, 255, 0.55) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -150,7 +150,7 @@ html {
   transform: rotate(-2deg);
   font-size: 5rem;
   padding-bottom: 5px;
-  color: #7f86b0;
+  color: #3a3a3a;
 }
 
 .space40px{
